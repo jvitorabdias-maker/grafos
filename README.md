@@ -34,19 +34,36 @@ Durante o desenvolvimento deste projeto foram utilizados os seguintes conceitos:
 
 ## Estrutura do Grafo
 
-Exemplo de conexões:
+Exemplo de Saída
 
-```text
-0 --- 1
-|   / |
-|  /  |
-| /   |
-4 --- 3
- \   /
-  \ /
-   2
-```
+Ao executar o programa, a matriz de adjacência é exibida da seguinte forma:
 
+Matriz de Adjacencia:
+
+01001
+10111
+01010
+01101
+11010
+
+Cada linha representa um vértice do grafo e cada coluna indica se existe uma conexão (aresta) com outro vértice.
+
+Por exemplo:
+
+A primeira linha (01001) indica que o vértice 0 está conectado aos vértices 1 e 4.
+A segunda linha (10111) indica que o vértice 1 está conectado aos vértices 0, 2, 3 e 4.
+E assim sucessivamente.
+
+Representação visual do grafo:
+
+        (0)
+       /   \
+      /     \
+    (1)---(4)
+     |\     |
+     | \    |
+     |  \   |
+    (2)--(3)
 Representação na matriz de adjacência:
 
 ```text
